@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title>Milena</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="contener">
+	<div id="banner">
+		<div id="top_left">
+			<script type="text/javascript">
+				function zegar()
+				{
+					var data = new Date();
+					var godzina = data.getHours();
+					var min = data.getMinutes();
+					var sek = data.getSeconds();
+ 					var terazjest = ""+godzina+((min<10)?":0":":")+min+((sek<10)?":0":":")+sek;
+					document.getElementById("top_left").innerHTML = terazjest;
+					setTimeout("zegar()", 1000); 
+				}
+					zegar();
+			</script>
+		</div>
+		<div id="top_right">
+			<div class="menu">HOME</div>
+			<div class="menu">O MNIE</div>
+			<div class="menu">GALERIA</div>
+			<div class="menu">KONTAKT</div>
+		</div>
+		<div id="logo">
+			<div class="eye"></div>
+			<div class="eye" style="margin-left: 0px;"></div>
+			<div id="signature">
+				<p>Sekret piekna<br>Dominika Kornecka</p>
+			</div>
+		</div>
+		<div id="image"></div>
+	</div>
+	<div id="content">
+		<div class="word">O MNIE</div>
+		<div class="circle" style="float: left; margin-left: 125px; margin-top: 25px; z-index: 100;">
+			<p><br><br>
+				Stylistka rzes jestem od marca 2019 roku.<br> Odbylam w tym czasie swoje pierwsze szkolenie. Swoje Umiejetnosci doskonale na bierzaco. Jestem absolwentka studium kosmetycznego, w ktorym uzyskalam tytul czeladnika oraz technika uslug kosmetycznych. Interesuje sie branza Beauty od dawna. 
+			</p>
+		</div>
+		<div class="circle" style="margin-left: 450px; margin-top: 125px;">
+			<p><br><br><br><br>
+				Oprocz stylizacji rzes oferuje rowniez uslugi manicure, pedicure oraz rozne zabiegi pielegnacyjne.<br> Kocham to co robie i sprawia mi to wielka przyjemnosc.
+			</p>
+		</div>
+		<div class="word">GALERIA</div>
+		<div id="pictures">
+			<table cellspacing="50">
+				<tr>
+					<td background="zdj1.jpg"></td>
+					<td background="zdj3.jpg"></td>
+					<td background="zdj4.jpg"></td>
+				</tr>
+				<tr>
+					<td background="zdj5.jpg"></td>
+					<td background="zdj6.jpg"></td>
+					<td background="zdj7.jpg"></td>
+				</tr>
+				<tr>
+					<td background="zdj2.jpg"></td>
+					<td background="zdj3.jpg"></td>
+					<td background="zdj4.jpg"></td>
+				</tr>
+				<tr>
+					<td background="zdj5.jpg"></td>
+					<td background="zdj6.jpg"></td>
+					<td background="zdj7.jpg"></td>
+				</tr>
+			</table>
+		</div>
+		<div id="offer">
+			<p>
+				Wykonywane metody przedluzania rzes: 1:1, 2:1, 2-3D, 4:1, 5:1, 6:1, 4-6D, 6-8D
+			</p>
+		</div>
+		<div class="word" style="margin-top: 75px;">Kontakt</div>
+	</div>
+	<div id="footer">
+		<div id="logo_fb"></div>
+		<div class="link">
+			<p>
+				Sekret piekna stylizacja rzes
+			</p>
+		</div>
+		<div id="logo_ig"></div>
+		<div class="link">
+			<p>
+				@sekretpieknastylizacjarzes
+			</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>

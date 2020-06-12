@@ -1,0 +1,180 @@
+body
+{
+background-color: #E5E5E5;
+}
+table
+{
+width: 100%;
+height: 750px;
+}
+td
+{
+background-size: cover;
+}
+/*#fbaddc- kolor koła*/
+#contener
+{
+width: 1000px;
+min-height: 2600px;
+background-color: #FFdaf1;
+margin-left: auto;
+margin-right: auto;
+}
+#banner
+{
+width: 100%;
+height: 350px;
+background: url(tło.jpg);
+background-size: cover;
+}
+#top_left
+{
+float: left;
+width: 18.5%;
+height: 50px;
+color: white;
+text-shadow: 2px 2px black;
+line-height: 50px;
+margin-left: 1.5%;
+font-size: 30px;
+text-align: center;
+}
+#top_right
+{
+float: right;
+width: 80%;
+height: 50px;
+border-bottom: 1px solid #553156;
+}
+.menu
+{
+width: 24%;
+height: 50px;
+display: inline-block;
+text-align: center;
+font-family: 'Julius Sans One', sans-serif;
+font-size: 30px;
+line-height: 50px;
+}
+#logo
+{
+clear: both;
+float: left;
+width: 40%;
+height: 300px;
+}
+.eye
+{
+display: inline-block;
+width: 30%;
+height: 50px;
+margin-top: 50px;
+margin-left: 30px;
+background: url(Vector.png);
+background-size: auto;
+background-repeat: no-repeat;
+}
+#signature
+{
+clear: both;
+width: 70%;
+height: 195px;
+text-align: center;
+font-family: 'Julius Sans One', sans-serif;
+font-size: 30px;
+}
+#image
+{
+display: inline-block;
+width: 50%;
+height: 300px;
+border-radius: 150px;
+margin-left: auto;
+margin-right: auto;
+background: url(zdj1.jpg);
+}
+#content
+{
+width: 100%;
+min-height: 1000px;
+}
+.word
+{
+clear: both;
+width: 96%;
+margin-left: auto;
+margin-right: auto;
+height: 50px;
+text-align: left;
+font-family: 'Julius Sans One', sans-serif;
+font-size: 30px;
+line-height: 50px;
+border-bottom: 1px solid #553156;
+}
+.circle
+{ 
+width: 40%;
+height: 400px;
+background-color: rgba(255,206,255,0.4);
+border-radius: 50%;
+text-align: center;
+line-height: 30px;
+font-family: 'Julius Sans One', sans-serif;
+font-size: 14px;
+}
+#offer
+{
+width: 100%-15px;
+margin-left: auto;
+margin-right: auto;
+height: 90px;
+background-color: #FFCEFF;
+line-height: 90px;
+border-radius: 105px;
+padding-left: 15px;
+font-family: 'Julius Sans One', sans-serif;
+font-size: 24px;
+}
+#footer
+{
+margin-top: 50px;
+background-color: red;
+z-index: 1000;
+width: 100%;
+height: 550px;
+background: url(tło.jpg);
+background-size: cover;
+padding-top: 50px;
+}
+#logo_fb
+{
+	float: left;
+width: 200px;
+height: 200px;
+background: url(fb.png);
+background-size: cover;
+margin-left: 100px;
+}
+#logo_ig
+{
+	float: left;
+width: 200px;
+height: 200px;
+background: url(ig.jpg);
+background-size: cover;
+margin-left: 100px;
+margin-top: 75px;
+}
+.link
+{
+float: right;
+width: 575px;
+height: 200px;
+margin-bottom: 75px;
+margin-right: 100px;
+text-align: left;
+padding-left: 25px;
+font-family: 'Julius Sans One', sans-serif;
+line-height: 150px;
+font-size: 32px;
+}
